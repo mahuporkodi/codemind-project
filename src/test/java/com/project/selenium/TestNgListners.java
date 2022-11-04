@@ -9,7 +9,7 @@ public class TestNgListners implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 
-		Reporter.log("Test Case Started " + result.getName());
+		Reporter.log("Test Case Starting " + result.getName());
 	}
 
 	public void onTestSuccess(ITestResult result) {
